@@ -10,7 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #232020, #3300b3);
+    background: linear-gradient(135deg, #232020, #b30000);
     color: #f8fff4;
 }
 
@@ -26,7 +26,7 @@ body{
 }
 
 .header{
-    background: #3300b3;
+    background: #b30000;
     padding: 16px;
     text-align: center;
     font-size: 1rem;
@@ -66,5 +66,30 @@ body{
     padding: 16px;
     gap: 8px;
     background: #1d1b1b;
+}
+
+input[type ="text"]{
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #2e2c2c;
+    color: #f8fff4;
+}
+input[type ="text"]::placeholder{
+    color: #b3b3b3;
+}
+
+button{
+    padding: 16px;
+    background: #b30000;
+    color: #f8fff4;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3sec;
 }
 
