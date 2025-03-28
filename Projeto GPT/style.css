@@ -77,6 +77,7 @@ input[type ="text"]{
     background: #2e2c2c;
     color: #f8fff4;
 }
+
 input[type ="text"]::placeholder{
     color: #b3b3b3;
 }
@@ -93,3 +94,19 @@ button{
     transition: background-color 0.3sec;
 }
 
+button:hover{
+    background: rgb(74, 74, 74);
+}
+
+.chat-box::-webkit-scrollbar{
+    width: 8px;
+}
+
+.chat-box::-webkit-scrollbar-thumb{
+    background-color: #b30000;
+    border-radius: 4px;
+}
+
+.chat-box::-webkit-scrollbar-track{
+    background: #2e2c2c;
+}
