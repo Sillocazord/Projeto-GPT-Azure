@@ -169,9 +169,9 @@ async function sendMessage() {
     chatBox.scrollTop = chatBox.scrollHeight;
   
     // Configurações do endpoint e chave da API
-    const endpoint = "https://ai-joaoribeiro0983ai897724152201.openai.azure.com";
-    const apiKey = "DPXhJczdg6VOhO7C1hpEmnCK64uJm84bml5r3RHqOT1Nk0wDJl1rJQQJ99BBACHYHv6XJ3w3AAAAACOGb0Ez";
-    const deploymentId = "gpt-4-model"; // Nome do deployment no Azure OpenAI
+    const endpoint = "https://ai-seulinkdeendpoint.openai.azure.com";
+    const apiKey = "numeros da apikey";
+    const deploymentId = "gpt-4"; // Nome do deployment no Azure OpenAI
     const apiVersion = "2024-05-01-preview"; // Verifique a versão na documentação
   
     // URL para a chamada da API
